@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*,*::after,*::before{
+    padding : 0rem;
+    margin : 0rem;
+    box-sizing : border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.QrCode{
+    width : 250px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.QrCode img{
+    display: inline-block;
+    width : 100%;
+    padding : 1rem;
+    border-radius: 20px;
+}
+
+.QrCode h2{
+    text-align: center;
+    padding : 0rem 1rem;
+    font-size : 15px;
+    width : 90%;
+    position: relative;
+    left : 50%;
+    transform: translateX(-50%);
+    color :  hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.QrCode p{
+    text-align: center;
+    padding : 1rem;
+    font-size : 15px;
+    color : hsl(220, 15%, 55%);
+    font-weight: 400;
+}
